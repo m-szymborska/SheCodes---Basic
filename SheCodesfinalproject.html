@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I solemnly swear that I am up to no good</title>
+
+    <style>
+        body {
+            color: #7f0909;
+            text-align: center;
+            background-color: #F7C457;
+            font-family: candara;
+            text-color: #7f0909 margin: 10px;
+            padding: 0px 200px 40px 200px;
+
+
+
+        }
+
+        h1 {
+
+            font-size: 50px;
+            border: 3px solid #7f0909;
+            border-radius: 10px 10px 10px 10px;
+            padding: 40px 40px 40px 40px;
+            margin: 0 auto;
+
+        }
+
+
+
+        p {
+            ;
+            font-size: 20px;
+            text-align: justify;
+            border: 3px solid #7f0909;
+            border-radius: 10px 10px 10px 10px;
+            padding: 40px 80px 40px 80px;
+            margin: 0 auto;
+        }
+
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .read-more {
+            display: block;
+            text-align: left;
+            color: #7f0909;
+            text-decoration: none;
+
+        }
+
+        .read-more:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            border: 1px solid #7f0909;
+            border-radius: 5px;
+        }
+
+        button {
+            display: block;
+            margin: 0 auto;
+            background: #7f0909;
+            color: #F7C457;
+            font-family: candara;
+            font-size: 40px;
+            border-radius: 10px 10px 10px 10px;
+            border: none;
+            padding: 10px;
+            box-shadow: 10px 5px 5px #7f0909;
+            transition: all 200ms ease-in-out;
+
+        }
+
+        button:hover {
+            background: #F7C457;
+            color: #7f0909;
+            cursor: pointer;
+        }
+
+        .all {
+            max-width: 600px;
+            margin: 0 auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <h1>
+            <strong>Harry Potter </strong><br />
+            ~~ Books and Movies ~~
+        </h1>
+        <br />
+
+        <img src="https://wallpapers.com/images/high/cool-harry-potter-minimalist-art-zf9avgy3y5kf6gtr.webp">
+
+        <h2> History of Harry Potter </h2>
+
+        <p>
+            Fictional character, a boy wizard created by British author J.K. Rowling. His coming-of-age exploits were
+            the
+            subject of seven enormously popular novels (1997–2007), which were adapted into eight films (2001–11); a
+            play
+            and a book of its script appeared in 2016.Harry Potter was first introduced in the novel Harry Potter and
+            the
+            Philosopher’s Stone (1997; also published as
+            Harry Potter and the Sorcerer’s Stone), as an orphan who is mistreated by his guardian aunt and uncle and
+            their
+            son. On his 11th birthday Harry discovers that his parents were a witch and a wizard and that he, a wizard
+            himself, has been invited to attend Hogwarts School of Witchcraft and Wizardry. He also learns that his
+            parents
+            had not perished in a car accident, as his aunt and uncle had told him, but that they instead had been
+            murdered
+            by an evil wizard named Voldemort. Harry was the only person to have ever survived an attack by Voldemort—by
+            somehow rebounding the latter’s “killing curse”—which left him with a lightning-bolt-shaped scar on his
+            forehead. Indeed, Harry’s mysterious survival had all but killed Voldemort, who was left disembodied, and
+            the
+            young boy was thus already a celebrated figure in the “wizarding” community. At Hogwarts Harry becomes fast
+            friends with classmates Ron Weasley and Hermione Granger and finds a rival in Draco Malfoy. He is taken
+            under
+            the wing of the school’s headmaster, Albus Dumbledore. These relationships persist throughout the series,
+            especially as the young wizards and witches grow older and are called upon to take sides in a growing wizard
+            war. Unbeknownst to Harry, and to much of the wizarding world in general, Voldemort is planning a return to
+            power. Although at first feeble and living as a parasite in a follower’s body, Voldemort makes attempts on
+            Harry’s life beginning in the first book and continuing throughout the series. In the fourth volume, Harry
+            Potter and the Goblet of Fire (2000), Voldemort regains his body and former strength through a magic ritual,
+            and
+            thereafter his army greatly increases in number. Harry and those who side with him—including some of his
+            teachers, several classmates, and other members of the wizarding community—are forced on multiple occasions
+            to
+            battle Voldemort and his disciples, including the Malfoy family. The epic saga culminates with Harry
+            accepting
+            his role as the iconic “boy who lived” and facing almost certain death in the struggle against the evil
+            wizard.
+            With help from those who love him and believe in him, he is able to emerge victorious.
+
+            Harry’s story continued in the play Harry Potter and the Cursed Child, which premiered in 2016. In the
+            production, which was based on a story cowritten by Rowling, Harry is married to Ginny Weasley, and they are
+            the
+            parents of James Sirius, Albus Severus, and Lily Luna. Although working for the Ministry of Magic, Harry
+            continues to struggle with his past, while Albus must contend with his father’s legacy. </p>
+
+        <a href="https://www.britannica.com/topic/Harry-Potter" target="_blank" class="read-more">Read more on
+            Britannica</a>
+        <br />
+
+
+        <button class="ask-button">I want to go to Hogwarts</button>
+        <br />
+        <br />
+
+        <hr class="line">
+        This side was made by Monika Szymborska
+    </div>
+    <script>
+        function ask() {
+            let name = prompt("What is your name?");
+            let age = prompt("How old are you?");
+            if (age <= 11) {
+                alert("Welcome in Wizzards World" + " " + name + " " + "You are" + " " + age + " " + "years old. Please wait patiently for your letter from Hogwarts!!!!");
+            } else {
+                if (age > 11) {
+                    alert("Welcome" + " " + name + " " + "in Wizzards World. You are" + " " + age + " " + "years old. I'm so sorry, but you are too old to go to Hogwarts");
+                }
+            }
+
+        }
+
+
+
+        let askButton = document.querySelector(".ask-button");
+        askButton.addEventListener("click", ask);
+
+    </script>
+</body>
+
+</html>
